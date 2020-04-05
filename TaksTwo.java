@@ -13,7 +13,7 @@ public class TaksTwo implements Callable {
 	@Override
 	public Integer call() throws Exception {
 		Thread.sleep(5000);
-		System.out.println("Exceuted Task 2 With Sleep of 5 sec. Completion Time = " + new Date(System.currentTimeMillis()));
+		System.out.println("Executed Task 2 With Sleep of 5 sec. Completion Time = " + new Date(System.currentTimeMillis()));
 		return new Integer(2);
 	}
 	

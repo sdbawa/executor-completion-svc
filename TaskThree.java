@@ -12,7 +12,7 @@ public class TaskThree implements Callable {
 	@Override
 	public Integer call() throws Exception {
 		Thread.sleep(3000);
-		System.out.println("Exceuted Task 3. Completion Time =  " + new Date(System.currentTimeMillis()));
+		System.out.println("Executed Task 3. Completion Time =  " + new Date(System.currentTimeMillis()));
 		return new Integer(3);
 	}
 
